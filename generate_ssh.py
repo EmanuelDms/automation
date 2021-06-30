@@ -7,7 +7,7 @@ try:
     email = sys.argv[1]
     option = sys.argv[2]
 except IndexError:
-    print("You must past your email on first argument.")
+    print("You must:\n* past your email on first argument\n* choose your option (0 for ubuntu and 1 for archlinux).")
 else:
     # apt method
     if (option == 0):
